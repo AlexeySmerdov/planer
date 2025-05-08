@@ -4,7 +4,8 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-gray-900">
+        <Link href="/" className="text-2xl font-bold text-gray-900 flex items-center">
+          <img src="/images/logo.webp" alt="LightLab Logo" className="h-8 mr-2" />
           LightLab
         </Link>
         <nav className="space-x-6">
